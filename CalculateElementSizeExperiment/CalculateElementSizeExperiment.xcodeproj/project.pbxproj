@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		73A588222A08E30100DC86DE /* CalculateElementSizeExperimentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A588212A08E30100DC86DE /* CalculateElementSizeExperimentApp.swift */; };
-		73A588242A08E30100DC86DE /* ElementSizeCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A588232A08E30100DC86DE /* ElementSizeCalculatorView.swift */; };
+		73A588242A08E30100DC86DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A588232A08E30100DC86DE /* ContentView.swift */; };
 		73A588262A08E30200DC86DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73A588252A08E30200DC86DE /* Assets.xcassets */; };
 		73A5882A2A08E30200DC86DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73A588292A08E30200DC86DE /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		73A5881E2A08E30100DC86DE /* CalculateElementSizeExperiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculateElementSizeExperiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73A588212A08E30100DC86DE /* CalculateElementSizeExperimentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateElementSizeExperimentApp.swift; sourceTree = "<group>"; };
-		73A588232A08E30100DC86DE /* ElementSizeCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementSizeCalculatorView.swift; sourceTree = "<group>"; };
+		73A588232A08E30100DC86DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		73A588252A08E30200DC86DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73A588272A08E30200DC86DE /* CalculateElementSizeExperiment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CalculateElementSizeExperiment.entitlements; sourceTree = "<group>"; };
 		73A588292A08E30200DC86DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				73A588212A08E30100DC86DE /* CalculateElementSizeExperimentApp.swift */,
-				73A588232A08E30100DC86DE /* ElementSizeCalculatorView.swift */,
+				73A588232A08E30100DC86DE /* ContentView.swift */,
 				73A588252A08E30200DC86DE /* Assets.xcassets */,
 				73A588272A08E30200DC86DE /* CalculateElementSizeExperiment.entitlements */,
 				73A588282A08E30200DC86DE /* Preview Content */,
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73A588242A08E30100DC86DE /* ElementSizeCalculatorView.swift in Sources */,
+				73A588242A08E30100DC86DE /* ContentView.swift in Sources */,
 				73A588222A08E30100DC86DE /* CalculateElementSizeExperimentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
